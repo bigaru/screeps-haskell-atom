@@ -1,0 +1,20 @@
+{
+  "name": "screeps-haskell",
+  "main": "./lib/screeps-haskell",
+  "version": "0.0.1",
+  "description": "A atom package for screeps-haskell project",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "screeps-haskell:push"
+  },
+  "repository": "https://github.com/bigaru/screeps-haskell-atom",
+  "license": "GPL-3.0+",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "executive": "^1.5.11",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0"
+  }
+}

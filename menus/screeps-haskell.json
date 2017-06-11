@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Push Screeps Code",
+        "command": "screeps-haskell:push"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "screeps-haskell",
+          "submenu": [
+            {
+              "label": "Push Code",
+              "command": "screeps-haskell:push"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
